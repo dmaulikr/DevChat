@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera is required for DevChat.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone is required for DevChat.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>DevChat would like to access your Photo LIbrary.</string>
 </dict>
 </plist>
