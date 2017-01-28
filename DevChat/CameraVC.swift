@@ -31,7 +31,7 @@ class CameraVC: AVCamCameraViewController, AVCameraVCDelegate{
     
     override func viewDidAppear(_ animated: Bool) {
         
-        //performSegue(withIdentifier: "LoginVC", sender: nil)
+        // performSegue(withIdentifier: "LoginVC", sender: nil)
         guard FIRAuth.auth()?.currentUser != nil else {
             performSegue(withIdentifier: "LoginVC", sender: nil)
             return
